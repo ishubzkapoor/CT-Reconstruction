@@ -23,7 +23,7 @@ For each rotation angle, the pixel intensities are summed along one direction to
 
 These projections are stacked together to form the sinogram.
 
-![Sinogram generation](assets/sinogram_generation.gif)
+![Sinogram generation](sinogram_generation.gif)
 
 The sinogram shows how object structures move across the detector as the scanning angle changes.
 
@@ -35,7 +35,7 @@ Backprojection takes each projection from the sinogram and spreads it back acros
 
 As more projections are accumulated, the reconstructed image gradually becomes closer to the original phantom.
 
-![Backprojection reconstruction](assets/better_backprojection_animation.gif)
+![Backprojection reconstruction](better_backprojection_animation.gif)
 
 This demonstrates the core reconstruction idea used in CT imaging.
 
